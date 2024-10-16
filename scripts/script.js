@@ -43,7 +43,7 @@ container.addEventListener('click', (e) => {
           }
         }
         if (e.target.closest('.top')) {
-          if (index > 5) {
+          if (index > 4) {
             otherElement = blocks[index - 5].innerHTML;
 
             item.innerHTML = otherElement;
